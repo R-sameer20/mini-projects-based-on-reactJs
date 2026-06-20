@@ -1,0 +1,211 @@
+/* Base Resets and Variables */
+:root {
+  --bg-dark: #1f2937;
+  --bg-dark-deep: #111827;
+  --bg-card: #2d3748;
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --accent: #61d54d;
+  --accent-hover: #4eb63c;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: var(--bg-dark-deep);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* App Wrapper Layout */
+.min-h-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-dark-deep);
+  padding-bottom: 3rem;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: var(--bg-dark);
+  padding: 1.25rem;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+}
+
+nav h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--text-main);
+}
+
+/* Filter Section Styling */
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
+
+.filter-container button {
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  border: 2px solid transparent;
+  padding: 0.5rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.filter-container button.active-btn {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #111827;
+}
+
+.filter-container button:hover {
+  
+  border-color: #ffffff;
+  color: var(--text-main);
+}
+
+/* Cards Grid Layout (3 items per row) */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+  justify-content: center;
+}
+
+/* Individual Card Styling */
+.card-wrapper {
+  background-color: var(--bg-dark);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  
+  transition: var(--transition);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Hover Effect on Cards */
+.card-wrapper:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 0 15px rgba(97, 213, 77, 0.2);
+}
+
+/* Card Image Section Container */
+.card-image-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+}
+
+.card-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Like Floating Button Container */
+.like-btn-container {
+  position: absolute;
+  right: 12px;
+  bottom: -18px;
+  z-index: 10;
+}
+
+.like-btn-container button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-dark-deep);
+  border: none;
+  color: var(--text-muted);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: var(--transition);
+}
+
+.like-btn-container button:hover {
+  color: #ef4444;
+  transform: scale(1.1);
+}
+
+/* Card Content Details */
+.card-info {
+  padding: 1.5rem;
+  padding-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex-grow: 1;
+}
+
+.course-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-main);
+}
+
+.course-description {
+  font-size: 0.925rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+/* Centered Spinner/Loading Area */
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 5rem auto;
+}
+
+.spinner-container p {
+  color: var(--accent);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .cards-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .cards-container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+}
