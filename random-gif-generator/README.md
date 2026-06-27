@@ -1,31 +1,29 @@
-# React & Tailwind CSS Starter Pack
+# 🎬 Random & Tagged GIF Generator
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+An interactive, API-driven media streaming dashboard built with **React** and styled via **Tailwind CSS**. This application hooks directly into the GIPHY API to fetch dynamic media items on demand, showcasing modular optimization through a centralized custom state hook to eliminate logic redundancy.
 
-## Usage
+---
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+## 🚀 Features
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+* **Random GIF Streamer:** Instantly requests a completely randomized GIF template from an API endpoint upon clicking the global layout trigger button.
+* **Targeted Keyword Filtering (`Tag`):** Features a focused search container that fetches tailored GIFs specifically matching any user-defined string query (e.g., "car").
+* **DRY Custom Hook Architecture:** Reuses code efficiently by centralizing duplicate asynchronous logic into a modular `useGif` hook that serves both components seamlessly.
+* **Polka-Dot Canvas Interface:** Wrapped inside a stylized, full-viewport responsive layout context utilizing advanced Tailwind background pattern utilities.
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+---
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## 🛠️ Tech Stack
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+* **Frontend Framework:** React.js
+* **State & Lifecycle Management:** Custom React Hooks (`useGif`, `useState`, `useEffect`)
+* **Data Communications:** Axios / Fetch API
+* **Styling System:** Tailwind CSS
 
-## Contributing
+---
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+## 📦 Installation & Configuration
+
+1. **Clone the repository context:**
+   ```bash
+   git clone [https://github.com/your-username/react-gif-generator.git](https://github.com/your-username/react-gif-generator.git)
