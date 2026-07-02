@@ -24,6 +24,6 @@ An interactive, API-driven media streaming dashboard built with **React** and st
 
 ## 📦 Installation & Configuration
 
-1. **Clone the repository context:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-gif-generator.git](https://github.com/your-username/react-gif-generator.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

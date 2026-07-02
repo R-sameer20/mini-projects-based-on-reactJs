@@ -26,6 +26,6 @@ A fully interactive, controlled-component form built with **React** and styled c
 
 ## 📦 Installation & Setup
 
-1. **Clone the repository:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-form-app.git](https://github.com/your-username/react-form-app.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

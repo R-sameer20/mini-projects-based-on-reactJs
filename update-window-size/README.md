@@ -23,6 +23,6 @@ A real-time viewport utility application built with **React** and styled via **T
 
 ## 📦 Installation & Configuration
 
-1. **Clone the repository:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-window-size-tracker.git](https://github.com/your-username/react-window-size-tracker.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

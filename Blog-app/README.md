@@ -23,6 +23,6 @@ A dynamic, optimized blog feed application built using **React** and **Tailwind 
 
 ## 📦 Installation & Configuration
 
-1. **Clone the repository:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-context-blog.git](https://github.com/your-username/react-context-blog.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

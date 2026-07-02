@@ -6,18 +6,19 @@ A minimal, clean, and highly responsive counter application built using **React*
 
 ## 🚀 Features
 
-*   **Increment & Decrement:** Increase or decrease the value dynamically with a responsive click layout.
-*   **State Reset:** Instantly reset the counter back to zero (`0`) using a clean, central reset button.
-*   **Modern UI/UX:** Features a sleek dark background (`#244151`), crisp typography, and fluid border segmentations.
-*   **Fully Responsive:** Designed using Tailwind CSS utility classes to look great on screens of all sizes.
+* **Increment & Decrement:** Increase or decrease the value dynamically with a responsive click layout.
+* **State Reset:** Instantly reset the counter back to zero (`0`) using a clean, central reset button.
+* **Modern UI/UX:** Features a sleek slate background, crisp font layouts, and fluid border segmentations.
+* **Fully Responsive:** Designed using Tailwind CSS utility classes to look great on screens of all sizes.
 
 ---
 
 ## 🛠️ Tech Stack
 
-*   **Frontend Library:** React.js
-*   **Styling:** Tailwind CSS (featuring custom color branding and borders)
-*   **Build Tool:** Create React App / Webpack
+* **Frontend Library:** React.js
+* **State Management:** React Hooks (`useState`)
+* **Styling Framework:** Tailwind CSS
+* **Build Tool:** Create React App / Vite
 
 ---
 
@@ -27,4 +28,4 @@ Follow these steps to run the counter app locally on your machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

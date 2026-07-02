@@ -23,6 +23,6 @@ A sleek, responsive vacation card management application built with **React** an
 
 ## 📦 Installation & Local Configuration
 
-1. **Clone this repository tree:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-tourism-planner.git](https://github.com/your-username/react-tourism-planner.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

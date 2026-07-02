@@ -25,6 +25,6 @@ An interactive, API-driven course filtering application built using **React** an
 
 ## 📦 Installation & Setup
 
-1. **Clone the repository:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-multi-card-app.git](https://github.com/your-username/react-multi-card-app.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)

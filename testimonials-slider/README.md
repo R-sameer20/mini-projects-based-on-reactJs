@@ -24,6 +24,6 @@ An interactive, responsive testimonial slider profile review interface built wit
 
 ## 📦 Installation & Configuration
 
-1. **Clone the repository:**
+1. **Clone the shared mini-projects repository:**
    ```bash
-   git clone [https://github.com/your-username/react-testimonials-slider.git](https://github.com/your-username/react-testimonials-slider.git)
+   git clone [https://github.com/R-sameer20/react-mini-projects.git](https://github.com/R-sameer20/react-mini-projects.git)
